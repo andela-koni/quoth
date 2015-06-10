@@ -1,0 +1,38 @@
+{
+  "name": "quoth",
+  "version": "1.0.0",
+  "description": "Quotation app",
+  "main": "index.js",
+  "scripts": {
+    "start": "iojs --use-strict --es_staging index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-koni/quoth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-koni/quoth/issues"
+  },
+  "homepage": "https://github.com/andela-koni/quoth",
+  "dependencies": {
+    "babel": "^5.5.6",
+    "bcryptjs": "^2.1.0",
+    "bluebird": "^2.9.27",
+    "koa": "^0.21.0",
+    "koa-better-body": "^1.0.17",
+    "koa-bodyparser": "^2.0.0",
+    "koa-hbs": "^0.7.0",
+    "koa-logger": "^1.2.2",
+    "koa-mount": "^1.3.0",
+    "koa-passport": "^1.1.6",
+    "koa-router": "^5.1.2",
+    "koa-session": "^3.2.0",
+    "koa-static": "^1.4.9",
+    "passport-local": "^1.0.0",
+    "rethinkdb": "^2.0.0-1",
+    "rethinkdbdash": "^2.0.11",
+    "slugid": "^1.0.3"
+  }
+}
